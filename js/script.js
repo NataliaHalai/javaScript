@@ -155,21 +155,52 @@
 
 //task 4
 
-let validLogin = "user123";
-let validPassword = "qwerty";
+// let validLogin = "user123";
+// let validPassword = "qwerty";
 
-let login = prompt("Введіть логін");
-let password = prompt("Введіть пароль");
+// let login = prompt("Введіть логін");
+// let password = prompt("Введіть пароль");
 
-if (login === validLogin && password === validPassword) {
-    console.log(true);
-    alert("Вітаю");
+// if (login === validLogin && password === validPassword) {
+//     console.log(true);
+//     alert("Вітаю");
     
-} else {
-    console.log(false);
-    alert("Ви ввели неправильний логін або пароль");
+// } else {
+//     console.log(false);
+//     alert("Ви ввели неправильний логін або пароль");
+// };
+
+
+
+
+const value = prompt("Enter the number from 1 to 7");
+let day;
+
+switch (value) {
+    case "1":
+        day = "monday";
+        break;
+    case "2":
+        day = "tuesday";
+        break;
+    case "3":
+        day = "wednesday";
+        break;
+    case "4":
+        day = "thursday";
+         break;
+    case "5":
+        day = "friday";
+         break;
+    case "6":
+        day = "saturday";
+        break;
+    case "7":
+        day = "sunday";
+        break;
+    
+    default:
+        alert(`There are no such days`);
+    
 };
-
-
-
-
+ if (value>0 && value <= 7) alert(`It is ${day} `);
