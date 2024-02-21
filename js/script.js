@@ -173,34 +173,113 @@
 
 
 
-const value = prompt("Enter the number from 1 to 7");
-let day;
+// const value = prompt("Enter the number from 1 to 7");
+// let day;
 
-switch (value) {
-    case "1":
-        day = "monday";
-        break;
-    case "2":
-        day = "tuesday";
-        break;
-    case "3":
-        day = "wednesday";
-        break;
-    case "4":
-        day = "thursday";
-         break;
-    case "5":
-        day = "friday";
-         break;
-    case "6":
-        day = "saturday";
-        break;
-    case "7":
-        day = "sunday";
-        break;
+// switch (value) {
+//     case "1":
+//         day = "monday";
+//         break;
+//     case "2":
+//         day = "tuesday";
+//         break;
+//     case "3":
+//         day = "wednesday";
+//         break;
+//     case "4":
+//         day = "thursday";
+//          break;
+//     case "5":
+//         day = "friday";
+//          break;
+//     case "6":
+//         day = "saturday";
+//         break;
+//     case "7":
+//         day = "sunday";
+//         break;
     
-    default:
-        alert(`There are no such days`);
+//     default:
+//         alert(`There are no such days`);
     
+// };
+//  if (value>0 && value <= 7) alert(`It is ${day} `);
+
+
+
+// const burger = 3;
+// const cola = 1;
+// const fries = 0;
+
+// if (burger === 3 && cola === 1 && fries) {
+//     console.log("Eaten");
+// } else {
+//     console.log("No");
+// };
+
+
+const hamburger = 0;
+const fries = 5;
+const cola = 2;
+const nuggets = 5;
+
+
+if (hamburger === 3 && nuggets === 7 || nuggets  && cola === 2 && fries)  {
+    console.log('Поїли!');
+} else {
+    console.log('Пішли додому!');
 };
- if (value>0 && value <= 7) alert(`It is ${day} `);
+
+//Циклы
+
+// for (let i = 5; i < 11; i++) {
+//   console.log(i);
+// };
+
+// for (let i = 20; i > 9; i--) {
+//   if (i === 13) {
+//     break;
+//   };
+//   console.log(i);
+// };
+
+// for (let i = 2;  i < 11; i++) {
+//     if (i % 2 === 0)
+//         console.log(i);
+// };
+
+// дз вывести массив от 5 до 10
+
+// let arr = [];
+
+// for (let i = 0, j = 5; i <= 5, j <= 10; i++, j++) {
+
+// arr[i] = j;
+
+// };
+
+// console.log(arr);
+
+//массив елка
+// let arr = [];
+// let j = "*";
+
+// for (let i = 0; i <= 8; i++) {
+//   arr[i] = j;
+//   console.log(arr);
+// };
+
+
+//цикл в цикле елочка строка
+
+let sum = "";
+
+for (let i = 0; i < 8; i++) {
+    for (let j = 1; j < i; j++) {
+    };
+    sum += "*";
+    console.log(sum);
+};
+
+
+
